@@ -1,0 +1,51 @@
+\documentclass[letterpaper]{article}
+%\documentclass{article}
+%\documentclass{report}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\begin{document}
+\title{Code Named: Cat--The Initial write-up for A Real-Time Display
+Application for the BME-280 Sensor Weather Station}
+\author{Lou Rosas}
+\maketitle
+
+\section{Concept}
+Continue the Weather Station Project.\\
+Extend the Project to create a desktop application that reads the
+sensor data directly from the BME280 sensor attached to the
+RaspberryPi:  instead of having to read the webpage.
+\section{Initial Application Requirements}
+\begin{enumerate}
+\item The Application will \underline{not} read from the webpage
+\item The User shall have the ability to view the current weather
+conditions real time
+\item The User shall have the ability to to update by request the
+current weather conditions
+\begin{enumerate}
+\item{The User shall have the ability to ``ping" the weather station
+for the current weather conditions}
+\end{enumerate}
+\item{The Super User shall have the ability set ``measurement time"}
+\begin{enumerate}
+\item{The system shall measure the current weather conditions at that
+``set measurement time"}
+\item{This shall not interfere with the User's ability to update by
+request the current weather condition}
+\end{enumerate}
+\item{With the exception of the Humidity measurement, the User shall
+have the ability to chose to view the current weather conditions in
+one of three units}
+\begin{enumerate}
+\item{Metric, English, Kelvin}
+\begin{enumerate}
+\item{Temperature, Dewpoint, Heat Index}
+\end{enumerate}
+\item{Metric, English, Millibars}
+\begin{enumerate}
+\item{Pressure}
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\end{document}
