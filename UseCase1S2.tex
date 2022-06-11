@@ -1,0 +1,45 @@
+\documentclass[letterpaper]{article}
+\usepackage{latexsym}
+\usepackage{amsbsy}
+\usepackage{graphicx}
+\begin{document}
+\noindent
+\textbf{Use Case U1:  View the Latest Measured Weather Data}\\
+\textbf{Scope:  }Weather Station\\
+\textbf{Level:  }User Goal\\
+\textbf{Primary Actor:  }User\\
+\textbf{Scenario:  }View Humidity Data\\
+\textbf{Related Use Cases:  }U2: \textit{The User shall have the
+ability to select different types of Views in viewing the Measured
+Weather Data}\\
+\textbf{Stakeholders \& Interests:  }
+\begin{itemize}
+\item User:  Who wants to view the Humidity Data
+\end{itemize}
+\textbf{Preconditions:  }The Hygrometer is online and measuring.\\
+\textbf{Success Gurantees:  }The User views the current Humidity
+Data.\\\\
+\textbf{Main Success Scenario:  }\\
+\begin{tabular}{|p{6cm}|p{6cm}|}\hline
+\textbf{User} & \textbf{System}\\\hline
+1.  Request to view the Humidity Data & \\\hline
+& 2.  Displays the Humidity Data in the currently requested
+units\\\hline
+& 3.  Displays the Time (Day, Date, Time, Time Zone) of the
+Humidity Measurement\\\hline
+\end{tabular}\\\\
+\textbf{Extensions:  }\\
+1a.  If the view of the System is already displaying the Humidity
+data, then the System will take no action.\\
+1b.  If the System is not running, then User will start the System
+first to view the Humidity Data.\\
+2a,3a.  If the Hygrometer is not working, the then System
+alerts the User of the Issue.\\\
+\textbf{Frequecy Of Occurence: } Depends upon the Measurement
+Frequency set in the System.\\\\
+\textbf{Open Issues: }
+\begin{itemize}
+\item What if the Hygromenter is broken?  Does the System continue
+to collect/measure the other Weather Data?
+\end{itemize}
+\end{document}
