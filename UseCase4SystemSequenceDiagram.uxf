@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>210</x>
-      <y>100</y>
+      <x>190</x>
+      <y>40</y>
       <w>60</w>
       <h>110</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>140</y>
+      <x>210</x>
+      <y>80</y>
       <w>30</w>
       <h>800</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>120</y>
+      <x>590</x>
+      <y>60</y>
       <w>30</w>
       <h>840</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>570</x>
-      <y>100</y>
+      <x>550</x>
+      <y>40</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -48,8 +48,8 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>180</x>
-      <y>220</y>
+      <x>160</x>
+      <y>160</y>
       <w>640</w>
       <h>200</h>
     </coordinates>
@@ -59,8 +59,8 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>170</x>
-      <y>450</y>
+      <x>150</x>
+      <y>390</y>
       <w>650</w>
       <h>220</h>
     </coordinates>
@@ -70,8 +70,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>250</y>
+      <x>210</x>
+      <y>190</y>
       <w>410</w>
       <h>40</h>
     </coordinates>
@@ -82,8 +82,8 @@ Units Requested</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>290</y>
+      <x>590</x>
+      <y>230</y>
       <w>190</w>
       <h>60</h>
     </coordinates>
@@ -94,8 +94,8 @@ Requested Units</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>670</x>
-      <y>150</y>
+      <x>650</x>
+      <y>90</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -106,8 +106,8 @@ Kelvin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>180</y>
+      <x>530</x>
+      <y>120</y>
       <w>190</w>
       <h>110</h>
     </coordinates>
@@ -117,8 +117,8 @@ Kelvin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>340</y>
+      <x>210</x>
+      <y>280</y>
       <w>410</w>
       <h>40</h>
     </coordinates>
@@ -129,8 +129,8 @@ Data in Requested Units</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>490</y>
+      <x>210</x>
+      <y>430</y>
       <w>410</w>
       <h>40</h>
     </coordinates>
@@ -141,8 +141,8 @@ Units Requested</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>830</x>
-      <y>390</y>
+      <x>810</x>
+      <y>330</y>
       <w>80</w>
       <h>60</h>
     </coordinates>
@@ -154,8 +154,8 @@ Millibars</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>440</y>
+      <x>520</x>
+      <y>380</y>
       <w>340</w>
       <h>90</h>
     </coordinates>
@@ -165,8 +165,8 @@ Millibars</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>520</y>
+      <x>590</x>
+      <y>460</y>
       <w>190</w>
       <h>60</h>
     </coordinates>
@@ -177,13 +177,91 @@ Requested Units</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>580</y>
+      <x>210</x>
+      <y>520</y>
       <w>410</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 Data in Requested Units</panel_attributes>
+    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>620</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;async&gt;&gt;
+Thermometer not working</panel_attributes>
+    <additional_attributes>10.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>650</y>
+      <w>410</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;async&gt;&gt;
+Thermometer not working</panel_attributes>
+    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>690</y>
+      <w>240</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;async&gt;&gt;
+Hygrometer not working</panel_attributes>
+    <additional_attributes>10.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>720</y>
+      <w>410</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;async&gt;&gt;
+Hygrometer not working</panel_attributes>
+    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>770</y>
+      <w>230</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;async&gt;&gt;
+Barometer not working</panel_attributes>
+    <additional_attributes>10.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>800</y>
+      <w>410</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;async&gt;&gt;
+Barometer not working</panel_attributes>
     <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
   </element>
 </diagram>
