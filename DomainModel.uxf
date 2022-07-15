@@ -281,7 +281,7 @@ m2=1..3
       <h>200</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Uses to calculate</panel_attributes>
+Uses</panel_attributes>
     <additional_attributes>110.0;180.0;10.0;180.0;10.0;10.0;150.0;10.0</additional_attributes>
   </element>
   <element>
@@ -481,11 +481,11 @@ captured-on &gt;</panel_attributes>
     <coordinates>
       <x>290</x>
       <y>630</y>
-      <w>150</w>
+      <w>130</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Uses to calculate</panel_attributes>
+Uses</panel_attributes>
     <additional_attributes>60.0;80.0;10.0;80.0;10.0;10.0;110.0;10.0</additional_attributes>
   </element>
   <element>
@@ -522,7 +522,7 @@ captured-on &gt;</panel_attributes>
       <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Uses to calculate</panel_attributes>
+Uses</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0;10.0;130.0;170.0;130.0</additional_attributes>
   </element>
   <element>
@@ -534,7 +534,7 @@ Uses to calculate</panel_attributes>
       <h>240</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Uses to calculate</panel_attributes>
+Uses</panel_attributes>
     <additional_attributes>180.0;10.0;10.0;10.0;10.0;220.0;230.0;220.0</additional_attributes>
   </element>
 </diagram>
