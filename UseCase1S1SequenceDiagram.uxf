@@ -370,7 +370,7 @@ updateData(:String)</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-_time = parseCalendar(_data:String):Sttring</panel_attributes>
+_time = parseCalendar(_data:String):String</panel_attributes>
     <additional_attributes>1470.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>

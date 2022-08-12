@@ -4,7 +4,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>190</x>
+      <x>160</x>
       <y>20</y>
       <w>240</w>
       <h>40</h>
@@ -16,7 +16,7 @@ _:CurrentWeatherClient_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>50</y>
       <w>30</w>
       <h>1130</h>
@@ -27,7 +27,7 @@ _:CurrentWeatherClient_</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>580</x>
+      <x>550</x>
       <y>20</y>
       <w>100</w>
       <h>40</h>
@@ -40,7 +40,7 @@ _:View_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
+      <x>580</x>
       <y>50</y>
       <w>40</w>
       <h>1390</h>
@@ -51,7 +51,7 @@ _:View_
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>890</x>
+      <x>860</x>
       <y>0</y>
       <w>240</w>
       <h>40</h>
@@ -62,7 +62,7 @@ _:View_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
+      <x>970</x>
       <y>30</y>
       <w>30</w>
       <h>980</h>
@@ -73,7 +73,7 @@ _:View_
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1220</x>
+      <x>1190</x>
       <y>0</y>
       <w>240</w>
       <h>40</h>
@@ -84,7 +84,7 @@ _:View_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
+      <x>1290</x>
       <y>30</y>
       <w>40</w>
       <h>970</h>
@@ -95,7 +95,7 @@ _:View_
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1570</x>
+      <x>1540</x>
       <y>0</y>
       <w>240</w>
       <h>40</h>
@@ -106,7 +106,7 @@ _:View_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1680</x>
+      <x>1650</x>
       <y>30</y>
       <w>30</w>
       <h>810</h>
@@ -117,7 +117,7 @@ _:View_
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>220</x>
+      <x>190</x>
       <y>100</y>
       <w>450</w>
       <h>420</h>
@@ -128,7 +128,7 @@ _:View_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>170</y>
       <w>730</w>
       <h>40</h>
@@ -140,7 +140,7 @@ ctor()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>130</y>
       <w>330</w>
       <h>60</h>
@@ -152,7 +152,7 @@ requestWeatherDataFromServer()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>190</y>
       <w>1060</w>
       <h>40</h>
@@ -164,7 +164,7 @@ sendPacket = ctor(:String,length:int,:iNetAddr,port:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>210</y>
       <w>730</w>
       <h>40</h>
@@ -176,7 +176,7 @@ send(sendPacket:DatagramPacket)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>230</y>
       <w>1060</w>
       <h>40</h>
@@ -188,7 +188,7 @@ receivePacket = ctor(:byte[],length:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>250</y>
       <w>730</w>
       <h>40</h>
@@ -200,7 +200,7 @@ receive(receivePacket:DatagramPacket)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>270</y>
       <w>1060</w>
       <h>40</h>
@@ -212,7 +212,7 @@ _rawData = getData):String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>300</y>
       <w>300</w>
       <h>60</h>
@@ -224,7 +224,7 @@ publishData(_rawData:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>350</y>
       <w>350</w>
       <h>40</h>
@@ -236,7 +236,7 @@ updateData(:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>390</y>
       <w>190</w>
       <h>60</h>
@@ -248,7 +248,7 @@ sleep(time:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>440</y>
       <w>340</w>
       <h>40</h>
@@ -260,7 +260,7 @@ SocketTimeoutException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>270</x>
       <y>470</y>
       <w>340</w>
       <h>40</h>
@@ -272,7 +272,7 @@ Exception</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1460</x>
+      <x>1430</x>
       <y>40</y>
       <w>500</w>
       <h>360</h>
@@ -283,7 +283,7 @@ Exception</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1680</x>
+      <x>1650</x>
       <y>60</y>
       <w>220</w>
       <h>60</h>
@@ -295,7 +295,7 @@ waitForRequests()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
+      <x>970</x>
       <y>140</y>
       <w>710</w>
       <h>40</h>
@@ -307,7 +307,7 @@ receive(receivePacket:DatagramPacket)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1680</x>
+      <x>1650</x>
       <y>160</y>
       <w>350</w>
       <h>80</h>
@@ -322,7 +322,7 @@ _temp = tempstring+
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
+      <x>1290</x>
       <y>260</y>
       <w>400</w>
       <h>60</h>
@@ -336,7 +336,7 @@ receivePacket.getPort():int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1010</x>
+      <x>980</x>
       <y>310</y>
       <w>700</w>
       <h>40</h>
@@ -348,7 +348,7 @@ send(sendPacket:DatagramPacket)</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>50</x>
+      <x>20</x>
       <y>80</y>
       <w>160</w>
       <h>60</h>
@@ -362,7 +362,7 @@ of time, and repeat</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>200</x>
+      <x>170</x>
       <y>100</y>
       <w>40</w>
       <h>60</h>
