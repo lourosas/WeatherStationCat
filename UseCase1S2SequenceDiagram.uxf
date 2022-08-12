@@ -104,7 +104,7 @@ humidity()</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-displayHumitity()</panel_attributes>
+displayHumidity()</panel_attributes>
     <additional_attributes>10.0;40.0;70.0;40.0;70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>

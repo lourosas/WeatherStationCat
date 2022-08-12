@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>20</x>
+      <y>40</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>User</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>40</x>
+      <y>80</y>
+      <w>30</w>
+      <h>730</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;710.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>20</x>
+      <y>150</y>
+      <w>430</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>ref
+--
+
+Server Client Sequence Diagram</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>350</x>
+      <y>40</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Subscriber&gt;&gt;
+_:View_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>70</y>
+      <w>30</w>
+      <h>710</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>740</x>
+      <y>30</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_:WeatherDataParser_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>50</y>
+      <w>30</w>
+      <h>750</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;730.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>40</x>
+      <y>250</y>
+      <w>380</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+dewpoint()</panel_attributes>
+    <additional_attributes>360.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>280</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+displayDewpoint()</panel_attributes>
+    <additional_attributes>10.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>330</x>
+      <y>370</y>
+      <w>520</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>English
+--
+
+
+-.
+[metric]
+
+
+
+
+-.
+[absolute]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>330</y>
+      <w>460</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+time = parseDewpointCalendar(_data:String):String</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>390</y>
+      <w>460</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+_dewpoint = parseDewpointEnglish(_data:String):String</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>470</y>
+      <w>460</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+_dewpoint = parseDewpointMetric(_data:String):String</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>550</y>
+      <w>460</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+_dewpoint = parseDewpointAbsolute(_data:String):String</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>40</x>
+      <y>610</y>
+      <w>380</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Dewpoint,Time,Units</panel_attributes>
+    <additional_attributes>10.0;20.0;360.0;20.0</additional_attributes>
+  </element>
+</diagram>
