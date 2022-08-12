@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1360</x>
-      <y>400</y>
+      <x>1460</x>
+      <y>370</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1280</x>
-      <y>540</y>
+      <x>1380</x>
+      <y>510</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
@@ -28,8 +28,8 @@ temperature</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1390</x>
-      <y>540</y>
+      <x>1490</x>
+      <y>510</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
@@ -41,8 +41,8 @@ humidity</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1510</x>
-      <y>540</y>
+      <x>1610</x>
+      <y>510</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
@@ -54,8 +54,8 @@ pressure</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1340</x>
-      <y>420</y>
+      <x>1440</x>
+      <y>390</y>
       <w>110</w>
       <h>140</h>
     </coordinates>
@@ -65,8 +65,8 @@ pressure</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1420</x>
-      <y>420</y>
+      <x>1520</x>
+      <y>390</y>
       <w>30</w>
       <h>140</h>
     </coordinates>
@@ -76,8 +76,8 @@ pressure</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1420</x>
-      <y>420</y>
+      <x>1520</x>
+      <y>390</y>
       <w>140</w>
       <h>140</h>
     </coordinates>
@@ -87,8 +87,8 @@ pressure</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1370</x>
-      <y>30</y>
+      <x>1470</x>
+      <y>0</y>
       <w>100</w>
       <h>70</h>
     </coordinates>
@@ -101,8 +101,8 @@ value</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1210</x>
-      <y>200</y>
+      <x>1310</x>
+      <y>170</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -112,8 +112,8 @@ value</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1270</x>
-      <y>90</y>
+      <x>1370</x>
+      <y>60</y>
       <w>170</w>
       <h>130</h>
     </coordinates>
@@ -123,8 +123,8 @@ value</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1360</x>
-      <y>200</y>
+      <x>1460</x>
+      <y>170</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
@@ -134,8 +134,8 @@ value</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1410</x>
-      <y>90</y>
+      <x>1510</x>
+      <y>60</y>
       <w>30</w>
       <h>130</h>
     </coordinates>
@@ -145,8 +145,8 @@ value</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1480</x>
-      <y>200</y>
+      <x>1580</x>
+      <y>170</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -156,8 +156,8 @@ value</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1410</x>
-      <y>90</y>
+      <x>1510</x>
+      <y>60</y>
       <w>130</w>
       <h>130</h>
     </coordinates>
@@ -167,8 +167,8 @@ value</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1590</x>
-      <y>200</y>
+      <x>1690</x>
+      <y>170</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -178,8 +178,8 @@ value</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1410</x>
-      <y>90</y>
+      <x>1510</x>
+      <y>60</y>
       <w>260</w>
       <h>130</h>
     </coordinates>
@@ -189,8 +189,8 @@ value</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1720</x>
-      <y>200</y>
+      <x>1820</x>
+      <y>170</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
@@ -200,8 +200,8 @@ value</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1410</x>
-      <y>90</y>
+      <x>1510</x>
+      <y>60</y>
       <w>380</w>
       <h>130</h>
     </coordinates>
@@ -211,8 +211,101 @@ value</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>100</y>
+      <x>940</x>
+      <y>1230</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Units
+--
+English
+metric
+absolute</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>470</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>HumidityData
+--
+percentage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>420</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>WeatherStation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>440</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+stores &gt;</panel_attributes>
+    <additional_attributes>230.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>410</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Hygrometer
+--
+humidity</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>410</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+ measures &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>1240</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>HeatIndexData
+--
+heatIndex</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>1240</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -222,8 +315,66 @@ value</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>140</x>
-      <y>90</y>
+      <x>330</x>
+      <y>1390</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>TemperatureData</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>1470</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>HumidityData</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>20</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>WeatherStation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>20</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>WeatherInstrument</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>10</y>
+      <w>260</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..3
+measures &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>80</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
@@ -235,91 +386,22 @@ value</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>90</y>
-      <w>230</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1..5
-m2=1
-captured-on &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>710</x>
-      <y>100</y>
-      <w>150</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>WeatherInstrument</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>550</x>
-      <y>90</y>
-      <w>180</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1..3
- measures &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>190</x>
-      <y>420</y>
-      <w>290</w>
-      <h>150</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-Uses
-m1=1
-m2=1
-r1=currentHumidity</panel_attributes>
-    <additional_attributes>10.0;120.0;260.0;120.0;260.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>810</x>
-      <y>940</y>
-      <w>180</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
- measures &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>510</x>
-      <y>1120</y>
-      <w>360</w>
+      <x>260</x>
+      <y>40</y>
+      <w>210</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
-m2=1
-r1=currentHI
-            captured-in &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;330.0;20.0;330.0;70.0</additional_attributes>
+m2=0..5
+stores &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;190.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>280</y>
+      <x>660</x>
+      <y>100</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -329,51 +411,194 @@ r1=currentHI
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>130</y>
-      <w>130</w>
-      <h>170</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-stores value in
-m1=0..3
-m2=1
-</panel_attributes>
-    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>220</x>
-      <y>120</y>
-      <w>280</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=0..5
-m2=1
-&lt; request data in different units</panel_attributes>
-    <additional_attributes>10.0;20.0;10.0;40.0;250.0;40.0;250.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>190</x>
-      <y>390</y>
-      <w>200</w>
-      <h>50</h>
+      <x>540</x>
+      <y>100</y>
+      <w>140</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=3
-m2=1
-stores value in</panel_attributes>
-    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+m2=1</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>30</x>
-      <y>940</y>
+      <x>210</x>
+      <y>230</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>WeatherStation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>220</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Thermometer
+--
+temperature</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>220</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+ measures &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>300</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>TemperatureData
+--
+currentTemp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>250</y>
+      <w>280</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+stores &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;260.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>250</y>
+      <w>400</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+request: English, metric, absolute &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0;370.0;120.0;370.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>300</y>
+      <w>220</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1
+stores value in</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>290</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Units
+--
+English
+metric
+absolute</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>600</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>WeatherStation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>590</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Barometer
+--
+pressure</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>590</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+ measures &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>660</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>PressureData
+--
+currentPressure</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>620</y>
+      <w>370</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+stores &gt;</panel_attributes>
+    <additional_attributes>350.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>640</y>
       <w>100</w>
       <h>80</h>
     </coordinates>
@@ -387,274 +612,154 @@ millibars</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>940</y>
-      <w>160</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-m1=3
-m2=1
-stores value in</panel_attributes>
-    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>80</x>
-      <y>1110</y>
-      <w>100</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Units
---
-English
-metric
-absolute</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>170</x>
-      <y>1120</y>
-      <w>250</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-m1=3
-m2=1
-stores value in</panel_attributes>
-    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>320</x>
-      <y>970</y>
-      <w>470</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
-&lt; request English,metric,millibars</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0;440.0;40.0;440.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>480</x>
-      <y>1150</y>
-      <w>390</w>
-      <h>130</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
-&lt; request English,metric,absolute</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0;360.0;110.0;360.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>800</x>
-      <y>480</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>WeatherStation</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>370</x>
-      <y>400</y>
-      <w>190</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>DewpointData</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>550</x>
-      <y>390</y>
-      <w>360</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
-r1=currentDP
-captured-in &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;330.0;20.0;330.0;90.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>470</x>
-      <y>420</y>
-      <w>350</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
-&lt; request English,metric,absolute</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0;330.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>100</x>
-      <y>380</y>
-      <w>100</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Units
---
-English
-metric
-absolute</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>60</x>
-      <y>480</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>TemperatureData</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>190</x>
-      <y>420</y>
-      <w>250</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-                Uses
-m1=1
-m2=1
-r1=currentTemp</panel_attributes>
-    <additional_attributes>10.0;70.0;220.0;70.0;220.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>90</x>
-      <y>530</y>
-      <w>110</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>HumidityData</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1030</x>
-      <y>660</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>WeatherStation</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1140</x>
-      <y>650</y>
-      <w>160</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
- measures &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1280</x>
-      <y>650</y>
-      <w>100</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>Thermometer
---
-temperature</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>510</x>
-      <y>660</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>TemperatureData</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>640</x>
-      <y>650</y>
-      <w>410</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
-r1=currentTemp
-captured-in &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>630</x>
-      <y>680</y>
-      <w>440</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
-&lt; request English,metric,absolute</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0;410.0;40.0;410.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>310</x>
+      <x>730</x>
       <y>650</y>
       <w>220</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m1=3
+m1=1
 m2=1
 stores value in</panel_attributes>
-    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>620</y>
+      <w>450</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+request: English,metric,millibars &gt;</panel_attributes>
+    <additional_attributes>420.0;90.0;420.0;110.0;10.0;110.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
+      <x>210</x>
+      <y>870</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>WeatherStation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>870</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>DewpointData
+--
+dewpoint</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>860</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+stores &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>1040</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>TemperatureData</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>1120</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>HumidityData</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>910</y>
+      <w>230</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+uses
+m1=1
+m2=1
+r1=currentTemp</panel_attributes>
+    <additional_attributes>10.0;150.0;200.0;150.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>910</y>
+      <w>350</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+uses
+m1=1
+m2=1
+r1=currentHumidity</panel_attributes>
+    <additional_attributes>10.0;230.0;320.0;230.0;320.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>890</y>
+      <w>100</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1
+stores</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;50.0;40.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
       <x>220</x>
-      <y>640</y>
+      <y>890</y>
+      <w>80</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1
+stores</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;250.0;60.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>860</y>
       <w>100</w>
       <h>80</h>
     </coordinates>
@@ -666,191 +771,103 @@ absolute</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>Relation</id>
     <coordinates>
-      <x>130</x>
-      <y>840</y>
-      <w>110</w>
-      <h>30</h>
+      <x>740</x>
+      <y>880</y>
+      <w>220</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>HumidityData</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1
+stores value in</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>840</y>
-      <w>120</w>
-      <h>30</h>
+      <x>330</x>
+      <y>1230</y>
+      <w>310</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>WeatherStation</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+stores &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>230</x>
-      <y>830</y>
-      <w>370</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
-r1=currentHumidity
-                captured-in &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>850</x>
-      <y>830</y>
-      <w>100</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>Hygrometer
---
-humidity</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>690</x>
-      <y>830</y>
-      <w>180</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
- measures &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>700</x>
-      <y>950</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>WeatherStation</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>970</x>
-      <y>940</y>
-      <w>100</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>Barometer
---
-pressure</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>260</x>
-      <y>950</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>PressureData</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>350</x>
-      <y>940</y>
-      <w>370</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1
-r1=currentPressure
-                      captured-in &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>400</x>
-      <y>1130</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>HeatIndexData</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>790</x>
-      <y>1190</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>WeatherStation</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>60</x>
       <y>1260</y>
-      <w>140</w>
-      <h>30</h>
+      <w>120</w>
+      <h>250</h>
     </coordinates>
-    <panel_attributes>TemperatureData</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>90</x>
-      <y>1320</y>
-      <w>110</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>HumidityData</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1
+stores</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0;100.0;220.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>1150</y>
-      <w>250</w>
+      <x>310</x>
+      <y>1260</y>
+      <w>90</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1
+stores</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>1280</y>
+      <w>230</w>
       <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-             Uses
+uses
 m1=1
 m2=1
 r1=currentTemp</panel_attributes>
-    <additional_attributes>10.0;120.0;220.0;120.0;220.0;10.0</additional_attributes>
+    <additional_attributes>10.0;120.0;200.0;120.0;200.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>1150</y>
-      <w>270</w>
-      <h>210</h>
+      <x>430</x>
+      <y>1280</y>
+      <w>300</w>
+      <h>230</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Uses
+uses
 m1=1
 m2=1
 r1=currentHumidity</panel_attributes>
-    <additional_attributes>10.0;180.0;240.0;180.0;240.0;10.0</additional_attributes>
+    <additional_attributes>10.0;200.0;270.0;200.0;270.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>1240</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1
+stores value in</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
