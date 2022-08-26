@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>220</y>
+      <x>420</x>
+      <y>300</y>
       <w>250</w>
       <h>110</h>
     </coordinates>
@@ -13,14 +13,16 @@
 CurrentWeatherDataSubscriber
 --
 #_data:string
---</panel_attributes>
+--
+double temperature(:Units)
+String temperatureString(:Units)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>750</x>
-      <y>40</y>
+      <x>700</x>
+      <y>70</y>
       <w>260</w>
       <h>100</h>
     </coordinates>
@@ -33,45 +35,19 @@ updateData(:List&lt;WeatherData&gt;)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>40</y>
-      <w>170</w>
-      <h>200</h>
+      <x>530</x>
+      <y>70</y>
+      <w>320</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>150.0;10.0;10.0;180.0</additional_attributes>
+    <additional_attributes>300.0;10.0;10.0;230.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>950</x>
-      <y>620</y>
-      <w>260</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Subscriber&gt;&gt;
-WeatherStationDataSubscriber
---
-double temperature(:Units)
-String temperature(:Units)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>760</x>
-      <y>320</y>
-      <w>280</w>
-      <h>320</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;260.0;300.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>220</x>
-      <y>320</y>
+      <x>340</x>
+      <y>590</y>
       <w>190</w>
       <h>40</h>
     </coordinates>
@@ -83,22 +59,22 @@ String temperature(:Units)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>290</y>
-      <w>240</w>
-      <h>80</h>
+      <x>430</x>
+      <y>400</y>
+      <w>60</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 r2=_wdp
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>220.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>440</y>
+      <x>570</x>
+      <y>590</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
@@ -108,21 +84,21 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
-      <y>310</y>
-      <w>210</w>
-      <h>160</h>
+      <x>620</x>
+      <y>400</y>
+      <w>40</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
 m1=1
 m2=5</panel_attributes>
-    <additional_attributes>190.0;10.0;10.0;140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
-      <y>720</y>
+      <x>130</x>
+      <y>330</y>
       <w>100</w>
       <h>100</h>
     </coordinates>
@@ -137,23 +113,49 @@ METRIC</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>640</y>
-      <w>460</w>
-      <h>140</h>
+      <x>220</x>
+      <y>350</y>
+      <w>220</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>440.0;10.0;10.0;120.0</additional_attributes>
+    <additional_attributes>200.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>540</y>
+      <w>230</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Subscriber&gt;&gt;
+DailyWeatherDataSubscriber
+--
+
+--</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>870</x>
-      <y>40</y>
-      <w>230</w>
-      <h>600</h>
+      <x>820</x>
+      <y>70</y>
+      <w>180</w>
+      <h>490</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;210.0;580.0</additional_attributes>
+    <additional_attributes>10.0;10.0;160.0;470.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>400</y>
+      <w>220</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;140.0</additional_attributes>
   </element>
 </diagram>
