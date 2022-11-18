@@ -1,0 +1,45 @@
+\documentclass[letterpaper]{article}
+\usepackage{latexsym}
+\usepackage{amsbsy}
+\usepackage{graphicx}
+\begin{document}
+\noindent
+\textbf{Use Case U1:  View the Latest Measured Weather Data}\\
+\textbf{Scope:  }Weather Station\\
+\textbf{Level:  }User Goal\\
+\textbf{Primary Actor:  }User\\
+\textbf{Scenario:  }View Dew Point Data\\
+\textbf{Related Use Cases:  }U2: \textit{The User shall have the
+ability to select different types of Views in viewing the Measured
+Weather Data}\\ U4:  \textit{The User shall have the ability to
+choose the Units to view the Current Weather Data}\\
+\textbf{Stakeholders \& Interests:  }
+\begin{itemize}
+\item User:  Who wants to view the Dew Point Data
+\end{itemize}
+\textbf{Preconditions:  }The Thermometer is online and measuring.\\
+The Hygrometer is online and Measuring.\\
+\textbf{Success Gurantees:  }The User views the current Dew Point
+Data.\\\\
+\textbf{Main Success Scenario:  }\\
+\begin{tabular}{|p{6cm}|p{6cm}|}\hline
+\textbf{User} & \textbf{System}\\\hline
+1.  Request to view the Dew Point Data & \\\hline
+& 2.  Displays the Dew Point Data in the currently requested
+units\\\hline
+& 3.  Displays the Time (Day, Date, Time, Time Zone) of the
+Dew Point Calculation\\\hline
+\end{tabular}\\\\
+\textbf{Extensions:  }\\
+1a.  If the view of the System is already displaying the Dew Point
+data, then the System will take no action.\\
+1b.  If the System is not running, then User will start the System
+first to view the Dew Point Data.\\
+2a,3a.  If the Temperatur Sensor is not working, then the System
+alerts the User of the Issue.\\
+2b,3b.  If the Hygrometer is not working, then the System alerts the
+User of the Issue.\\
+\textbf{Frequecy Of Occurence: } Depends upon the Measurement
+Frequency set in the System.\\\\
+\textbf{Open Issues: } None
+\end{document}

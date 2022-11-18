@@ -1,0 +1,8 @@
+The files in this directory are the orginal attempt to design an
+application which will be called WeatherStationCat.  In the reasoning
+process, I discorvered the design that I was about to implement was
+far too involved.  Many of what I determined to be Use Cases via the
+Actor-Goal discovery were incorrect.
+
+I have started essentially "over" and corrected the User-Goal list.
+Hence, acrhived most everything from the original design.

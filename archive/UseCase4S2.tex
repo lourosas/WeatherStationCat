@@ -1,0 +1,42 @@
+\documentclass[letterpaper]{article}
+\usepackage{latexsym}
+\usepackage{amsbsy}
+\usepackage{graphicx}
+\begin{document}
+\noindent
+\textbf{Use Case U4:  Choose the Units to view the Current Weather
+Data}\\
+\textbf{Scope:  }Weather Station\\
+\textbf{Level:  }User Goal\\
+\textbf{Primary Actor:  }User\\
+\textbf{Scenario:  }Choose Units for Barometric Pressure Data\\
+\textbf{Related Use Cases:  }U1: \textit{The User shall have the
+ability to view the Latest Measured Data}\\
+\textbf{Stakeholders \& Interests:  }
+\begin{itemize}
+\item User:  Who want to view the Barometric Pressure Data in
+English, Metric, or millibars
+\end{itemize}
+\textbf{Preconditions:  }The Application is started.  The Weather
+Station is online.  The Barometer is online and measuring.  The
+The Current Barometric Pressure Data is currently being viewed
+\textit{(See Use Case 1:  View the Latest Measured Weather Data)}.\\
+\textbf{Success Gurantees:  }The System displays the Barometric
+Pressure in the User Requested Units (English, Metric, millibars).
+\\\\
+\textbf{Main Success Scenario:  }\\
+\begin{tabular}{|p{6cm}|p{6cm}|}\hline
+\textbf{User} & \textbf{System}\\\hline
+ 1.  Choose the Units (inches, millimeters, millibars) to view
+ the Barometric Pressure & \\\hline
+& 2.  Displays the Requested Units (inches, millimeters, millibars)
+for the Current Barometric Pressure Measurement\\\hline
+\end{tabular}\\\\
+\textbf{Extensions:  }\\
+*a.  If the data is not accurate due to Sensors being offline, then
+the System will alert the the User of the issue.\\
+2a.  If the view of the System is already displaying the requestd
+Units, then the System will take no action.\\
+\textbf{Frequecy Of Occurence: } Almost constant.\\\\
+\textbf{Open Issues: } None
+\end{document}

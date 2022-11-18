@@ -1,0 +1,57 @@
+\documentclass[letterpaper]{article}
+\usepackage{latexsym}
+\usepackage{amsbsy}
+\usepackage{graphicx}
+\begin{document}
+\noindent
+\textbf{Use Case 1:  Request Measured Data}\\
+\textbf{Scope:  }Weather Station\\
+\textbf{Level:  }User Goal\\
+\textbf{Primary Actor:  }User\\
+\textbf{Scenario:  }None\\
+\textbf{Related Use Cases:  } None\\
+\textbf{Stakeholders \& Interests:  }
+\begin{itemize}
+\item User:  wants the current weather data 
+\end{itemize}
+\textbf{Preconditions:  }The System is online and is periodically
+measuring the weather instruments.\\
+\textbf{Success Gurantees:  }The System returns the entire Weather
+Data suite to the User.\\\\
+\textbf{Main Success Scenario:  }\\
+\begin{tabular}{|p{6cm}|p{6cm}|}\hline
+\textbf{User} & \textbf{System}\\\hline
+1.  Request all the current Weather Data & \\\hline
+& 2. Measures the Themometer, converts the Temperature data into
+Fahrenheit and Kelvin and returns the data in all three units\\\hline
+& 3.  Measures the Hygrometer and reuturns the data\\\hline
+& 4.  Measures the Barometer, converts the Pressure data into
+miilimeters of Mercury, and inches of Mercury and returns the data in
+all three units\\\hline
+& 5.  Calculates the Dewpoint, converts the data into Fahrenheit and
+Kelvin and returns the Dewpoint Data in all three units.\\\hline
+& 6.  Calculates the Heatindex, converts the data into Fahrenheit and
+Kelvin and returns the Heatindex data in all three units.\\\hline
+7.  Outside of Humidity, the User choses the units to view the data
+    returned in 2-6 & \\\hline
+\end{tabular}\\\\
+\textbf{Extensions:  }\\
+2a,3a,4a.  If any or all of the Sensors are broken, then the System
+alerts the User of the Issue.\\\\
+\textbf{Frequecy Of Occurence: } Almost continuous\\\\
+\textbf{Special Requirements:  }
+\begin{itemize}
+\item The System periodically monitors the sensors, measuring the
+for the measured data
+\item On every occurence of the System monitoring the sensors, the
+System
+uses the measured data and caluculates Weather Data that is calculated
+\item On every occurence of the System monitoring the sensors, the
+System broadcasts the Weather Data for observers
+\end{itemize}
+\textbf{Open Issues: }
+\begin{itemize}
+\item What if one or many of the Sensors are broken?  Does the System
+continue to measure/collect other measured Weather Data?
+\end{itemize}
+\end{document}

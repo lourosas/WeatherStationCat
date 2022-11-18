@@ -1,0 +1,46 @@
+\documentclass[letterpaper]{article}
+\usepackage{latexsym}
+\usepackage{amsbsy}
+\usepackage{graphicx}
+\begin{document}
+\noindent
+\textbf{Use Case U4:  Chose the Units to view the Current Weather
+Data}\\
+\textbf{Scope:  }Weather Station\\
+\textbf{Level:  }User Goal\\
+\textbf{Primary Actor:  }User\\
+\textbf{Scenario:  }Chose Units for Temperature, Dewpoint, Heat
+Index Data\\
+\textbf{Related Use Cases:  }U1: \textit{The User shall have the
+ability to view the Latest Measured Data}\\
+\textbf{Stakeholders \& Interests:  }
+\begin{itemize}
+\item User:  Who want to view the Temperature, Heat Index, Dew Point
+in Degrees Fahrenheit, Celsius, Kelvin
+\end{itemize}
+\textbf{Preconditions:  }The Application is started. The Weather
+Station is online. The Thermometer is online and measuring.
+The Hygrometer is online and measuring. The Temperature, Dew Point
+or Heat Index Data is currently being viewed
+\textit{(See Use Case 1:  View the Latest Measured Weather Data)}.\\
+\textbf{Success Gurantees:  }The System displays the Temperature,
+Heat Index, Dew Point in the User Requested Units (Degrees
+Fahrenheit, Celsius, Kelvin).
+\\\\
+\textbf{Main Success Scenario:  }\\
+\begin{tabular}{|p{6cm}|p{6cm}|}\hline
+\textbf{User} & \textbf{System}\\\hline
+ 1.  Chose the Units (Degrees Fahrenheit, Celsius, Kelvin) to view
+ the Temperature, Heat Index, Dew Point Data& \\\hline
+& 2.  Displays the Current Units (Degrees Fahrenheit, Celsius,
+Kelvin) for the Current Measurement (Temperature, Heat Index,
+Dewpoint)\\\hline
+\end{tabular}\\\\
+\textbf{Extensions:  }\\
+*a.  If the data is not accurate due to Sensors being offline, then
+the System will alert the the User of the issue.\\
+2a.  If the view of the System is already displaying the requestd
+Units, then the System will take no action.\\
+\textbf{Frequecy Of Occurence: } Almost constant.\\\\
+\textbf{Open Issues: } None
+\end{document}
