@@ -32,14 +32,14 @@ all three units\\\hline
 Kelvin and returns the Dewpoint Data in all three units.\\\hline
 & 6.  Calculates the Heatindex, converts the data into Fahrenheit and
 Kelvin and returns the Heatindex data in all three units.\\\hline
-& 7.  Returns the Weather Data to the User\\\hline
+7.  Outside of Humidity, the User choses the units to view the data
+    returned in 2-6 & \\\hline
 \end{tabular}\\\\
 \textbf{Extensions:  }\\
 2a,3a,4a.  If any or all of the Sensors are broken, then the System
 alerts the User of the Issue.\\
 6a.  If the temperature is too low to calculate the Heatindex
-( $< 70^{\circ}$ Fahrentheit), then the System alerts the User
-it is too cold to calculate Heatindex.\\\\
+( $< 70^{\circ}$ Fahrentheit, then the system \\\\
 \textbf{Frequecy Of Occurence: } Almost continuous\\\\
 \textbf{Special Requirements:  }
 \begin{itemize}
@@ -50,8 +50,6 @@ System
 uses the measured data and caluculates Weather Data that is calculated
 \item On every occurence of the System monitoring the sensors, the
 System broadcasts the Weather Data for observers
-\item Asside from Humidity, the System choses a default measuring
- unit which the User can change
 \end{itemize}
 \textbf{Open Issues: }
 \begin{itemize}
