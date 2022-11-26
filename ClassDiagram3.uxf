@@ -240,8 +240,8 @@ Publish</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>740</y>
+      <x>440</x>
+      <y>760</y>
       <w>380</w>
       <h>170</h>
     </coordinates>
@@ -261,8 +261,8 @@ _+temperature(rawData:String):WeatherData_
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>630</x>
-      <y>1020</y>
+      <x>670</x>
+      <y>1010</y>
       <w>120</w>
       <h>90</h>
     </coordinates>
@@ -274,21 +274,21 @@ _+temperature(rawData:String):WeatherData_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>900</y>
+      <x>720</x>
+      <y>920</y>
       <w>40</w>
-      <h>150</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=*
 m2=1</panel_attributes>
-    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>1050</y>
+      <x>440</x>
+      <y>1040</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -298,26 +298,26 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>900</y>
+      <x>490</x>
+      <y>920</y>
       <w>90</w>
-      <h>170</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 r2=calendar</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
+      <x>610</x>
       <y>610</y>
       <w>40</w>
-      <h>150</h>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.0.0">
-  <zoom_level>5</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>0</x>
-      <y>130</y>
-      <w>30</w>
-      <h>55</h>
+      <x>24</x>
+      <y>18</y>
+      <w>36</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>User</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>65</x>
-      <y>135</y>
-      <w>130</w>
-      <h>25</h>
+      <x>102</x>
+      <y>24</y>
+      <w>156</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Subscriber&gt;&gt;
 _:CurrentWeatherObservationPost_</panel_attributes>
@@ -27,10 +27,10 @@ _:CurrentWeatherObservationPost_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>155</y>
-      <w>15</w>
-      <h>625</h>
+      <x>168</x>
+      <y>48</y>
+      <w>18</w>
+      <h>750</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1230.0</additional_attributes>
@@ -38,10 +38,10 @@ _:CurrentWeatherObservationPost_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>10</x>
-      <y>180</y>
-      <w>125</w>
-      <h>20</h>
+      <x>36</x>
+      <y>78</y>
+      <w>150</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 requestUpdateFromPublisher()</panel_attributes>
@@ -50,10 +50,10 @@ requestUpdateFromPublisher()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>10</x>
-      <y>145</y>
-      <w>15</w>
-      <h>410</h>
+      <x>36</x>
+      <y>36</y>
+      <w>18</w>
+      <h>492</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;800.0</additional_attributes>
@@ -61,10 +61,10 @@ requestUpdateFromPublisher()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>210</x>
-      <y>135</y>
-      <w>100</w>
-      <h>25</h>
+      <x>276</x>
+      <y>24</y>
+      <w>120</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Publisher&gt;&gt;
 _:InstantWeatherDataClient_</panel_attributes>
@@ -73,10 +73,10 @@ _:InstantWeatherDataClient_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>155</y>
-      <w>15</w>
-      <h>560</h>
+      <x>324</x>
+      <y>48</y>
+      <w>18</w>
+      <h>672</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1100.0</additional_attributes>
@@ -84,10 +84,10 @@ _:InstantWeatherDataClient_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>190</y>
-      <w>145</w>
-      <h>20</h>
+      <x>168</x>
+      <y>90</y>
+      <w>174</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 request()</panel_attributes>
@@ -96,10 +96,10 @@ request()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>330</x>
-      <y>135</y>
-      <w>95</w>
-      <h>25</h>
+      <x>420</x>
+      <y>24</y>
+      <w>114</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>__socket:DatagramSocket_</panel_attributes>
     <additional_attributes/>
@@ -107,10 +107,10 @@ request()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>155</y>
-      <w>15</w>
-      <h>390</h>
+      <x>468</x>
+      <y>48</y>
+      <w>18</w>
+      <h>468</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;760.0</additional_attributes>
@@ -118,10 +118,10 @@ request()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>200</y>
-      <w>135</w>
-      <h>25</h>
+      <x>324</x>
+      <y>102</y>
+      <w>162</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 &lt;&lt;create&gt;&gt;
@@ -131,10 +131,10 @@ DatagramSocket</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>430</x>
-      <y>135</y>
-      <w>110</w>
-      <h>25</h>
+      <x>540</x>
+      <y>24</y>
+      <w>132</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_sendPacket:DatagramPacket_</panel_attributes>
     <additional_attributes/>
@@ -142,10 +142,10 @@ DatagramSocket</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>475</x>
-      <y>155</y>
-      <w>15</w>
-      <h>385</h>
+      <x>594</x>
+      <y>48</y>
+      <w>18</w>
+      <h>462</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;750.0</additional_attributes>
@@ -153,10 +153,10 @@ DatagramSocket</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>215</y>
-      <w>240</w>
-      <h>25</h>
+      <x>324</x>
+      <y>120</y>
+      <w>288</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 &lt;&lt;create&gt;&gt;
@@ -166,10 +166,10 @@ DatagramPacket(:byte[],:int,:addr,:int)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>540</x>
-      <y>135</y>
-      <w>115</w>
-      <h>25</h>
+      <x>672</x>
+      <y>24</y>
+      <w>138</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_receivePacket:DatagramPacket_</panel_attributes>
     <additional_attributes/>
@@ -177,10 +177,10 @@ DatagramPacket(:byte[],:int,:addr,:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>155</y>
-      <w>15</w>
-      <h>375</h>
+      <x>732</x>
+      <y>48</y>
+      <w>18</w>
+      <h>450</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;730.0</additional_attributes>
@@ -188,10 +188,10 @@ DatagramPacket(:byte[],:int,:addr,:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>235</y>
-      <w>135</w>
-      <h>20</h>
+      <x>324</x>
+      <y>144</y>
+      <w>162</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 send(:DatagramPacket)</panel_attributes>
@@ -200,10 +200,10 @@ send(:DatagramPacket)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>655</x>
-      <y>135</y>
-      <w>130</w>
-      <h>25</h>
+      <x>810</x>
+      <y>24</y>
+      <w>156</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_server:InstantWeatherDataServer_</panel_attributes>
     <additional_attributes/>
@@ -211,10 +211,10 @@ send(:DatagramPacket)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>155</y>
-      <w>15</w>
-      <h>375</h>
+      <x>876</x>
+      <y>48</y>
+      <w>18</w>
+      <h>450</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;730.0</additional_attributes>
@@ -222,10 +222,10 @@ send(:DatagramPacket)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>790</x>
-      <y>135</y>
-      <w>130</w>
-      <h>25</h>
+      <x>972</x>
+      <y>24</y>
+      <w>156</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_receivePacket:DatagramPacket_</panel_attributes>
     <additional_attributes/>
@@ -233,10 +233,10 @@ send(:DatagramPacket)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>845</x>
-      <y>155</y>
-      <w>15</w>
-      <h>375</h>
+      <x>1038</x>
+      <y>48</y>
+      <w>18</w>
+      <h>450</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;730.0</additional_attributes>
@@ -244,10 +244,10 @@ send(:DatagramPacket)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>250</y>
-      <w>150</w>
-      <h>25</h>
+      <x>876</x>
+      <y>162</y>
+      <w>180</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 &lt;&lt;create&gt;&gt;
@@ -257,10 +257,10 @@ DatagramPacket(:byte[],:int)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>925</x>
-      <y>135</y>
-      <w>120</w>
-      <h>25</h>
+      <x>1134</x>
+      <y>24</y>
+      <w>144</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>__socket:DatagramSocket_</panel_attributes>
     <additional_attributes/>
@@ -268,10 +268,10 @@ DatagramPacket(:byte[],:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>980</x>
-      <y>155</y>
-      <w>15</w>
-      <h>435</h>
+      <x>1200</x>
+      <y>48</y>
+      <w>18</w>
+      <h>522</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;850.0</additional_attributes>
@@ -279,10 +279,10 @@ DatagramPacket(:byte[],:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>270</y>
-      <w>285</w>
-      <h>20</h>
+      <x>876</x>
+      <y>186</y>
+      <w>342</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 receive(:DatagramPacket,:int)</panel_attributes>
@@ -291,10 +291,10 @@ receive(:DatagramPacket,:int)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1050</x>
-      <y>135</y>
-      <w>65</w>
-      <h>25</h>
+      <x>1284</x>
+      <y>24</y>
+      <w>78</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_:BufferedReader_</panel_attributes>
     <additional_attributes/>
@@ -302,10 +302,10 @@ receive(:DatagramPacket,:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1075</x>
-      <y>155</y>
-      <w>15</w>
-      <h>435</h>
+      <x>1314</x>
+      <y>48</y>
+      <w>18</w>
+      <h>522</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;850.0</additional_attributes>
@@ -313,10 +313,10 @@ receive(:DatagramPacket,:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>285</y>
-      <w>380</w>
-      <h>20</h>
+      <x>876</x>
+      <y>204</y>
+      <w>456</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 data = readLine():String</panel_attributes>
@@ -325,10 +325,10 @@ data = readLine():String</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>705</x>
-      <y>165</y>
-      <w>275</w>
-      <h>60</h>
+      <x>870</x>
+      <y>60</y>
+      <w>330</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>bg=green
 command = "python /home/pi/weather-station/test0.py"
@@ -343,10 +343,10 @@ The Return is the Sensor data in raw form</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>875</x>
-      <y>220</y>
-      <w>25</w>
-      <h>85</h>
+      <x>1074</x>
+      <y>126</y>
+      <w>30</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>30.0;150.0;10.0;10.0</additional_attributes>
@@ -354,10 +354,10 @@ The Return is the Sensor data in raw form</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1120</x>
-      <y>135</y>
-      <w>105</w>
-      <h>25</h>
+      <x>1368</x>
+      <y>24</y>
+      <w>126</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_send:DatagramPacket_</panel_attributes>
     <additional_attributes/>
@@ -365,10 +365,10 @@ The Return is the Sensor data in raw form</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1165</x>
-      <y>155</y>
-      <w>15</w>
-      <h>430</h>
+      <x>1422</x>
+      <y>48</y>
+      <w>18</w>
+      <h>516</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;840.0</additional_attributes>
@@ -376,10 +376,10 @@ The Return is the Sensor data in raw form</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>300</y>
-      <w>470</w>
-      <h>25</h>
+      <x>876</x>
+      <y>222</y>
+      <w>564</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 &lt;&lt;create&gt;&gt;
@@ -389,10 +389,10 @@ DatagramPacekt(data:byte[],length:int,addr:byte[],port:int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>320</y>
-      <w>285</w>
-      <h>20</h>
+      <x>876</x>
+      <y>246</y>
+      <w>342</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 send(:DatagramPacket)</panel_attributes>
@@ -401,10 +401,10 @@ send(:DatagramPacket)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>340</y>
-      <w>355</w>
-      <h>30</h>
+      <x>324</x>
+      <y>270</y>
+      <w>426</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 &lt;&lt;create&gt;&gt;
@@ -415,10 +415,10 @@ receive = DatagramPacket(:byte[],:int)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>360</y>
-      <w>240</w>
-      <h>25</h>
+      <x>324</x>
+      <y>294</y>
+      <w>288</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 receive(receive:DatagramPacket)
@@ -428,10 +428,10 @@ receive(receive:DatagramPacket)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>375</y>
-      <w>355</w>
-      <h>25</h>
+      <x>324</x>
+      <y>312</y>
+      <w>426</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 rawData = getData():String
@@ -439,24 +439,12 @@ rawData = getData():String
     <additional_attributes>690.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>250</x>
-      <y>390</y>
-      <w>130</w>
-      <h>25</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-publishData(rawData:String)</panel_attributes>
-    <additional_attributes>10.0;30.0;40.0;30.0;40.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1230</x>
-      <y>130</y>
-      <w>130</w>
-      <h>25</h>
+      <x>1500</x>
+      <y>18</y>
+      <w>156</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
@@ -465,10 +453,10 @@ publishData(rawData:String)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1235</x>
-      <y>135</y>
-      <w>130</w>
-      <h>25</h>
+      <x>1506</x>
+      <y>24</y>
+      <w>156</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_:WeatherDataSubcriber_</panel_attributes>
     <additional_attributes/>
@@ -476,33 +464,21 @@ publishData(rawData:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1295</x>
-      <y>155</y>
-      <w>15</w>
-      <h>550</h>
+      <x>1578</x>
+      <y>48</y>
+      <w>18</w>
+      <h>660</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1080.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>250</x>
-      <y>405</y>
-      <w>1060</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-[*WeatherDataSubscriber]updateData(rawData:String)</panel_attributes>
-    <additional_attributes>2100.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1375</x>
-      <y>130</y>
-      <w>130</w>
-      <h>30</h>
+      <x>1674</x>
+      <y>18</y>
+      <w>156</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>RawDataToWeatherDataConverter</panel_attributes>
     <additional_attributes/>
@@ -510,10 +486,10 @@ publishData(rawData:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1435</x>
-      <y>155</y>
-      <w>15</w>
-      <h>470</h>
+      <x>1746</x>
+      <y>48</y>
+      <w>18</w>
+      <h>564</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;920.0</additional_attributes>
@@ -521,10 +497,10 @@ publishData(rawData:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>415</y>
-      <w>1330</w>
-      <h>25</h>
+      <x>168</x>
+      <y>360</y>
+      <w>1596</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 temp = temperature(rawData:String):WeatherData</panel_attributes>
@@ -533,10 +509,10 @@ temp = temperature(rawData:String):WeatherData</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1510</x>
-      <y>130</y>
-      <w>75</w>
-      <h>30</h>
+      <x>1836</x>
+      <y>18</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>List&lt;WeatherData&gt;</panel_attributes>
     <additional_attributes/>
@@ -544,10 +520,10 @@ temp = temperature(rawData:String):WeatherData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1540</x>
-      <y>155</y>
-      <w>15</w>
-      <h>490</h>
+      <x>1872</x>
+      <y>48</y>
+      <w>18</w>
+      <h>588</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;960.0</additional_attributes>
@@ -555,10 +531,10 @@ temp = temperature(rawData:String):WeatherData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>430</y>
-      <w>1435</w>
-      <h>25</h>
+      <x>168</x>
+      <y>378</y>
+      <w>1722</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 add(temp:WeatherData)</panel_attributes>
@@ -567,10 +543,10 @@ add(temp:WeatherData)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>445</y>
-      <w>1330</w>
-      <h>20</h>
+      <x>168</x>
+      <y>396</y>
+      <w>1596</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 humidity=humidity(rawData:String):WeatherData</panel_attributes>
@@ -579,10 +555,10 @@ humidity=humidity(rawData:String):WeatherData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>455</y>
-      <w>1435</w>
-      <h>25</h>
+      <x>168</x>
+      <y>408</y>
+      <w>1722</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 add(humdity:WeatherData)</panel_attributes>
@@ -591,10 +567,10 @@ add(humdity:WeatherData)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>475</y>
-      <w>1330</w>
-      <h>25</h>
+      <x>168</x>
+      <y>432</y>
+      <w>1596</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 pressure=barrometricPressure(rawData:String):WeatherData</panel_attributes>
@@ -603,10 +579,10 @@ pressure=barrometricPressure(rawData:String):WeatherData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>490</y>
-      <w>1435</w>
-      <h>25</h>
+      <x>168</x>
+      <y>450</y>
+      <w>1722</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 add(pressure:WeatherData)</panel_attributes>
@@ -615,10 +591,10 @@ add(pressure:WeatherData)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>505</y>
-      <w>1330</w>
-      <h>20</h>
+      <x>168</x>
+      <y>468</y>
+      <w>1596</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 dewpoint=dewpoint(rawData:String):WeatherData</panel_attributes>
@@ -627,10 +603,10 @@ dewpoint=dewpoint(rawData:String):WeatherData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>555</y>
-      <w>1435</w>
-      <h>25</h>
+      <x>168</x>
+      <y>528</y>
+      <w>1722</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 add(dewpoint:WeatherData)</panel_attributes>
@@ -639,10 +615,10 @@ add(dewpoint:WeatherData)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1435</x>
-      <y>520</y>
-      <w>230</w>
-      <h>30</h>
+      <x>1746</x>
+      <y>486</y>
+      <w>276</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 calculateDewpiont(rawData:String):DewpointData</panel_attributes>
@@ -651,10 +627,10 @@ calculateDewpiont(rawData:String):DewpointData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>570</y>
-      <w>1330</w>
-      <h>25</h>
+      <x>168</x>
+      <y>546</y>
+      <w>1596</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 heatindex=heatIndex(rawData:String):WeatherData</panel_attributes>
@@ -663,10 +639,10 @@ heatindex=heatIndex(rawData:String):WeatherData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1435</x>
-      <y>585</y>
-      <w>235</w>
-      <h>30</h>
+      <x>1746</x>
+      <y>564</y>
+      <w>282</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 calculateHeatindex(rawData:String):HeatIndexData</panel_attributes>
@@ -675,10 +651,10 @@ calculateHeatindex(rawData:String):HeatIndexData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>620</y>
-      <w>1435</w>
-      <h>25</h>
+      <x>168</x>
+      <y>606</y>
+      <w>1722</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 add(dewpoint:WeatherData)</panel_attributes>
@@ -687,25 +663,25 @@ add(dewpoint:WeatherData)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>665</y>
-      <w>150</w>
-      <h>25</h>
+      <x>324</x>
+      <y>330</y>
+      <w>120</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-publishData(:List&lt;WeatherData&gt;)</panel_attributes>
+publishData(:String)</panel_attributes>
     <additional_attributes>10.0;30.0;40.0;30.0;40.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>635</y>
-      <w>1190</w>
-      <h>25</h>
+      <x>324</x>
+      <y>348</y>
+      <w>1272</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-[*WeatherDataSubscriber]updateData(List&lt;WeatherData&gt;)</panel_attributes>
-    <additional_attributes>2360.0;10.0;10.0;30.0</additional_attributes>
+[*WeatherDataSubscriber]updateData(:String)</panel_attributes>
+    <additional_attributes>2100.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
