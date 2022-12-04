@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <ecore:EAnnotation xmi:id="_d8BCEGkdEe2wL8USbNUYFg" source="Internationalization">
+    <details xmi:id="_d8BCEWkdEe2wL8USbNUYFg" key="use" value="true"/>
+    <details xmi:id="_d8BCEmkdEe2wL8USbNUYFg" key="language" value="en_US"/>
+  </ecore:EAnnotation>
+  <notation:Diagram xmi:id="_kyyFkGkdEe2wL8USbNUYFg" type="PapyrusUMLClassDiagram" name="ClassDiagram1" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_kyyFkWkdEe2wL8USbNUYFg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_kyyFkmkdEe2wL8USbNUYFg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_kyyFk2kdEe2wL8USbNUYFg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner href="weatherStationCat.uml#_sJYxoGkbEe2C_Mb1AlS62A"/>
+    </styles>
+    <element href="weatherStationCat.uml#_sJYxoGkbEe2C_Mb1AlS62A"/>
+  </notation:Diagram>
+</xmi:XMI>

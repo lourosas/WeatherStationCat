@@ -1,0 +1,56 @@
+\documentclass[letterpaper]{article}
+\usepackage{latexsym}
+\usepackage{amsbsy}
+\usepackage{graphicx}
+\begin{document}
+\noindent
+\textbf{Use Case 2:  Archive Current Weather Data}\\
+\textbf{Scope:  }Weather Station\\
+\textbf{Level:  }User Goal\\
+\textbf{Primary Actor: }User\\
+\textbf{Secondary Actor:  }Database (to be developed)\\
+\textbf{Scenerio:  }None\\
+\textbf{Related Use Cases:  }\textit{Use Case 1:  The User shall have
+the ability to Request The Weather Station to measure the weather
+data}\\
+\textbf{Stakeholders \& Interests:  }
+\begin{itemize}
+\item User:  Wants to archive the current measured weather data
+\item Database:  (Wants to) Save off the current measured weather
+data requested by the User
+\end{itemize}
+\textbf{Preconditions:  }The System is online and is periodically
+measuring the weather instruments. The System is sending the most
+recent data to all registered subscribers. \textbf{(To Be Developed)}
+the SQL database is up, the System is registered to the data base.\\
+\textbf{Success Guarantees:  }The System arhives the weather data and
+(to be developed) sends the data to and SQL database.\\\\
+
+\textbf{Main Success Scenerio:  }\\
+\begin{tabular}{|p{6cm}|p{6cm}|}\hline
+\textbf{User} & \textbf{System}\\\hline
+1.  Save all current weather data & \\\hline
+& 2.  Prompts the User to select where to save the weather
+data with a file name\\\hline
+3.  Enters the file name and location to archive the weather
+data & \\\hline
+& 4.  Creates the file at the specified location\\\hline
+& 5.  Collects all the required data for saving.\\\hline
+& 6.  Saves the data in the file\\\hline
+& 7.  Closes the file of the saved weather data\\\hline
+& 8.  Prompts the user the data was saved off\\\hline
+\end{tabular}\\\\
+\textbf{Extensions:  }\\
+4a.  If the files exists, then the System appends the data to the
+User selected file.\\
+6a.  If there is a saving error (cannot save the data, the saving
+process failed), then the System indicates to the user of the
+error.\\\\
+\textbf{Frequency of Occurence:  }Almost continuous\\\\
+\textbf{Open Issues:  }
+\begin{itemize}
+\item  Eventually, a SQL database (secondary actor) is to connect up
+to the System for data achiving in addition to the User selected
+file.
+\end{itemize}
+\end{document}
