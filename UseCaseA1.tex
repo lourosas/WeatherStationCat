@@ -1,0 +1,62 @@
+\documentclass[letterpaper]{article}
+\usepackage{latexsym}
+\usepackage{amsbsy}
+\usepackage{graphicx}
+\begin{document}
+\noindent
+\textbf{Use Case A1:  Set System Measurement Time}\\
+\textbf{Scope:  }Weather Station\\
+\textbf{Level:  }Administrator Goal\\
+\textbf{Primary Actor:  }Super User (Administrator)\\
+\textbf{Scenario:  }None\\
+\textbf{Related Use Cases:  }None\\
+\textbf{Stakeholders \& Interests:  }
+\begin{itemize}
+\item Administrator:  Wants to access/change the times when the
+Weather Station makes its measurements
+\item User:  Wants weather data available at a time frame (like
+measured every $x$ minutes and such)
+\end{itemize}
+\textbf{Preconditions:  }The Weather Station is online and is
+periodically measuring the instrumentation.\\
+\textbf{Success Guarantees:  }The rate at which the System requests
+weather data from the Weather Station is changed.  The System
+requests the weather data at the new rate.\\\\ 
+\textbf{Main Success Scenario:  }\\
+\begin{tabular}{|p{6cm}|p{6cm}|}\hline
+\textbf{Super User} & \textbf{System}\\\hline
+1.  Requests to change the Measurement Time &\\\hline
+& 2.  Asks for Super-User Credentials\\\hline
+3.  Enters Admin Name and Admin Password & \\\hline
+& 4.  Confirms the credentials\\\hline
+& 5.  Prompts Admin to change measuremnt time\\\hline
+6.  Enters a new measurement time & \\\hline
+& 7.  Prompts Admin to confirm change\\\hline
+8.  Confirms the change & \\\hline
+& 9.  Changes the measurement time\\\hline
+\end{tabular}
+\textbf{Extensions:  }\\
+4a.  If the System cannot confirm the Admin's credentials, then the
+System alerts the requestor, refuses access, and allows the requestor
+multiple attempts.\\
+8a.  If the Super User cancels the confimation, then the System does
+not change the measurement time.\\\\
+\textbf{Frequency of Occurrence:  }Almost Continuous\\\\
+\textbf{Special Requirements: }
+\begin{itemize}
+\item The Weather Station as a whole will measure the instruments at
+the set rate by the Weather Station itself; this creates a ``request"
+time set by the System independent of the Weather Station's
+Measuremnt Time.
+\end{itemize}
+\textbf{Open Issues:  }
+\begin{itemize}
+\item What units does the Super User enter the Measurement time?
+Seconds? Minutes? Hours? some combination of the three?
+\item Remember, this is the \underline{time between measurements}. If
+the super-user enters 30 seconds, then the System will request the
+Weather
+Station to make the measurements every 30 seconds, make the
+appropriate calculations and send that weather data to the System.
+\end{itemize}
+\end{document}
