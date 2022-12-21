@@ -32,7 +32,7 @@ CurrentWeatherObservationPost
       <x>730</x>
       <y>220</y>
       <w>290</w>
-      <h>270</h>
+      <h>230</h>
     </coordinates>
     <panel_attributes>CurrentWeatherDataSubscriber
 --
@@ -44,8 +44,6 @@ CurrentWeatherObservationPost
 #temperatureData:WeatherData
 #sleepTime:int
 --
-+changeSleepTime()
-+confirmSuperUserCredentials()
 +requestUpdateFromPublisher()
 +setSleepTime(seconds:int)
 +setSleepTime(hrs:int,mins:int,sec:int)
@@ -57,12 +55,12 @@ CurrentWeatherObservationPost
     <id>Relation</id>
     <coordinates>
       <x>750</x>
-      <y>480</y>
+      <y>440</y>
       <w>130</w>
-      <h>180</h>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;10.0;160.0</additional_attributes>
+    <additional_attributes>110.0;10.0;10.0;200.0</additional_attributes>
   </element>
   <element>
     <id>UMLInterface</id>
